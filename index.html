@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="styles.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -16,14 +18,10 @@
   <header>
     <div class="heading">
       <img src="images/logo.svg" alt="huddles-logo">
-
       <button class="header-button">Try It Free</button>
     </div>
-  </header>
-
-  <div class="main">
     <div class="intro">
-      <div class="intro-text">
+      <div class="hero">
         <h1> Build The Community Your Fans Will Love</h1>
         <p class="intro-text"> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
           Create connections with your users as you engage in genuine discussion.</p>
@@ -31,52 +29,67 @@
       </div>
       <img src="images/illustration-mockups.svg" alt="Intro Image" id="hero-image">  
     </div>
+  </header>
+  <div class="main">
     <div class="feature-cards">
-      <div class="card-1">
-        <h1>Grow Together</h1>
-        <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
-          Think of the insightful conversations you miss out on with a feedback form.</p>
-        <img src="images/illustration-grow-together.svg" alt="Grow Together illustration">
+      <div class="card">
+        <div class="card-hero">
+          <h1>Grow Together</h1>
+          <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+            Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+        <img src="images/illustration-grow-together.svg" alt="Grow Together illustration" id="card-image">
       </div>
-      <div class="card-2">
-        <h1>Flowing Conversations</h1>
-        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-          have just-in-time loading for a more natural flow.</p>
-        <img src="images/illustration-flowing-conversation.svg" alt="Flowing conversations illustration">
+      <div class="card">
+        <img src="images/illustration-flowing-conversation.svg" alt="Flowing conversations illustration" id="card-image">
+        <div class="card-hero">
+          <h1>Flowing Conversations</h1>
+          <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+            have just-in-time loading for a more natural flow.</p>
+        </div>
       </div>
-      <div class="card-3">
-        <h1>Your Users</h1>
-        <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
-          This means, once signed in to your app, your users can start chatting immediately.</p>
-        <img src="images/illustration-your-users.svg" alt="Users illustration">
+      <div class="card">
+        <div class="card-hero">
+          <h1>Your Users</h1>
+          <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
+            This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+        <img src="images/illustration-your-users.svg" alt="Users illustration" id="card-image">
       </div>
-    </div>
-    <div class="extra-card">
-      <h1> Ready To Build Your Community?</h1>
-      <button class="extra-button">Get Started For Free</button>
+      <div class="extra-card">
+        <div class="extra-info">
+          <h1> Ready To Build Your Community?</h1>
+          <button class="extra-button">Get Started For Free</button>
+        </div>
+      </div>
     </div>
   </div>
   <div class="footer">
-    <img src="images/logo.svg" alt="footer-huddle-logo">
+    <img src="images/logo.svg" alt="footer-huddle-logo" id="footer-logo">
     <div class="info-lists">
       <ul class="address">
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        <li><i class="fa-regular fa-comment"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
           incididunt ut labore et dolore magna aliqua</li>
-        <li>+1-543-123-4567</li>
-        <li>example@huddle.com</li>
+        <li><i class="fa-solid fa-phone"></i>+1-543-123-4567</li>
+        <li><i class="fa-solid fa-inbox"></i>example@huddle.com</li>
       </ul>
       <ul class="description">
-        <li>About Us</li>
-        <li>What We Do</li>
-        <li>FAQ</li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="">What We Do</a></li>
+        <li><a href="">FAQ</a></li>
       </ul>
       <ul class="contact">
-        <li>Career</li>
-        <li>Blog</li>
-        <li>Contact Us</li>
+        <li><a href="">Career</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact Us</a></li>
       </ul>
+      <div class="socials">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
     </div>
+    <p class="closer">&copy; Copyright 2018 Huddle. All rights reserved.| Coded by <a href="#">Anacoder69</a></p>
   </div>
-  &copy; Copyright 2018 Huddle. All rights reserved.| Coded by Anacoder69
 </body>
 </html>
